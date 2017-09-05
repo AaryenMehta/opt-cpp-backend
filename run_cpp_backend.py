@@ -14,7 +14,7 @@ end_of_trace_error_msg = None
 
 DN = os.path.dirname(sys.argv[0])
 if not DN:
-    DN = '.' # so that we always have an executable path like ./usercode.exe
+    DN = './' # so that we always have an executable path like ./usercode.exe
 USER_PROGRAM = sys.argv[1] # string containing the program to be run
 LANG = sys.argv[2] # 'c' for C or 'cpp' for C++
 
